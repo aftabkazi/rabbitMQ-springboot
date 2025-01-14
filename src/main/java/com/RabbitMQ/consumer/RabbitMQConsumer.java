@@ -17,9 +17,9 @@ public class RabbitMQConsumer {
 	 * the parameter) with the help of @RabbitListner annotation
 	 * 
 	 */
-	@RabbitListener(queues = { "${rabbitmq.queue.name}" })
-	public void consume(String message) {
-		System.out.println("inside consume method : " + message);
-	}
+//	@RabbitListener(queues = { "${rabbitmq.queue.name}" })
+//	public void consume(String message) {
+//		System.out.println("inside consume method : " + message);
+//	}
 
 }
